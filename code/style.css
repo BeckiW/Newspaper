@@ -43,7 +43,6 @@ text-align: center;
   background: #FFFFFF;
   margin: 10px;
   padding: 8px;
-  text-align: center;
   box-shadow: 2px 6px 15px -1px #2b2b2b;
   border-radius: 25px;
   border: 2px solid #9fa09d;
@@ -60,26 +59,31 @@ text-align: center;
       display: block;
 }
 
+.articletext {
+  position: relative;
+  top: 250px;
+}
 
 .articlegrid h2{
-  background: white;
-  display: inline;
-  padding: 8px;
-  margin: 0 20px 70px 20px;
-  position: absolute;
-  bottom:0;
   font-family: Helvetica;
   font-size: 20px;
   color: black;
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+.articlegrid h2 a {
+  padding: 5px;
+  background: white;
+  color: black;
+  text-decoration: none
 }
 
 p {
   background: white;
   display: inline;
-  padding: 8px;
-  margin: 0 20px 70px 20px;
-  position: absolute;
-  bottom:0;
+  padding: 5px;
+  margin: 0px;
   font-family: Helvetica;
   font-size: 10px;
   color: grey;
